@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<object name="portal_javascripts">
+
+    <javascript enabled="False" id="jquery.js" />
+    <javascript enabled="False" id="jquery-integration.js" />
+
+</object>

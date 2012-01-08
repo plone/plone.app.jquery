@@ -1,0 +1,14 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup">
+
+    <genericsetup:upgradeStep
+        source="*"
+        destination="2"
+        title="Initial upgrade step"
+        description=""
+        profile="plone.app.jquerytools:default"
+        handler="plone.app.jquerytools.upgrades.initial_upgrade_step"
+      />
+
+</configure>

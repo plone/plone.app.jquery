@@ -1,0 +1,23 @@
+<configure
+    xmlns="http://namespaces.zope.org/browser"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup">
+
+    <resource 
+        name="plone.app.jquery.js" 
+        file="jquery-1.4.4.min.js"
+        />
+
+    <genericsetup:registerProfile
+        name="default"
+        title="Plone JQuery Integration"
+        directory="profiles/default"
+        description="Profile for Plone's JQuery resources."
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        for="Products.CMFCore.interfaces.ISiteRoot"
+        />
+
+    <include file="upgrades.zcml" />
+
+
+</configure>
