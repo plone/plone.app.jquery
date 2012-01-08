@@ -2,13 +2,23 @@
     xmlns="http://namespaces.zope.org/zope"
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup">
 
+    <genericsetup:registerProfile
+        name="initial-upgrade"
+        directory="profiles/initial-upgrade"
+        title="plone.app.jquery:initial-upgrade"
+        description='Profile for initial upgrade step'
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
+
+
     <genericsetup:upgradeStep
         source="*"
         destination="2"
         title="Initial upgrade step"
         description=""
-        profile="plone.app.jquerytools:default"
-        handler="plone.app.jquerytools.upgrades.initial_upgrade_step"
+        profile="plone.app.jquery:default"
+        handler="plone.app.jquery.upgrades.step_1_initial_upgrade"
       />
+
 
 </configure>

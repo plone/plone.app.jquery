@@ -1,5 +1,6 @@
-import logger
 from Products.CMFCore.utils import getToolByName
+import logging
+logger = logging.getLogger("Belimo")
 
 
 class ImportProfileStep(object):
@@ -16,4 +17,4 @@ class ImportProfileStep(object):
 
 
 step_1_initial_upgrade = ImportProfileStep(
-    u'profile-plone.app.jquery.:initial-upgrade')
+    u'profile-plone.app.jquery:initial-upgrade')

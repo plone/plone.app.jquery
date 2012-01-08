@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
-version = '1.4.4'
+version = '1.7.1'
 
 setup(name='plone.app.jquery',
       version=version,
       description="jQuery integration for Plone",
-      long_description=open("README.txt").read(),
+      long_description=open("README.rst").read(),
       classifiers=[
           "Environment :: Web Environment",
           "Framework :: Plone",

@@ -3,6 +3,6 @@
 
     <javascript cacheable="True" compression="none" cookable="True"
         enabled="True" inline="False" expression="" insert-before="*"
-        id="++resource++plone.app.jquery.js" />
+        bundle="jquery" id="++resource++plone.app.jquery.js" />
 
 </object>
