@@ -4,7 +4,7 @@
 
     <genericsetup:registerProfile
         name="initial-upgrade"
-        directory="profiles/initial-upgrade"
+        directory="profiles/initial-profile"
         title="plone.app.jquery:initial-upgrade"
         description='Profile for initial upgrade step'
         provides="Products.GenericSetup.interfaces.EXTENSION"
