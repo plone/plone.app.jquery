@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<registry>
+
+  <record name="Products.ResourceRegistries.interfaces.settings.IResourceRegistriesSettings.resourceBundlesForThemes" interface="Products.ResourceRegistries.interfaces.settings.IResourceRegistriesSettings" field="resourceBundlesForThemes">
+    <value purge="False">
+      <element key="(default)">
+        <element>default</element>
+        <element>jquery</element>
+      </element>
+    </value>
+  </record>
+
+</registry>
