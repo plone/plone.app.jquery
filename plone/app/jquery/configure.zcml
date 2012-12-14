@@ -4,8 +4,8 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup">
 
     <resource 
-        name="plone.app.jquery.js" 
-        file="jquery-1.7.1.min.js"
+        name="plone.app.jquery.js"
+        file="jquery-1.7.js"
         />
 
     <genericsetup:registerProfile
