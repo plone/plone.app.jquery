@@ -5,7 +5,7 @@
 
     <resource 
         name="plone.app.jquery.js"
-        file="jquery-1.7.js"
+        file="jquery-1.8.js"
         />
 
     <genericsetup:registerProfile

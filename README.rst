@@ -9,6 +9,8 @@ Versions
 Version numbers of the package is the same as the jQuery library + packaging version.
 
 Available versions of this package are:
+
+- 1.8.3
 - 1.7.2
 - 1.4.4
 
