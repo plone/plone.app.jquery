@@ -28,3 +28,4 @@ step_1_initial_upgrade = ImportProfileStep(
     u'profile-plone.app.jquery:initial-upgrade')
 
 upgrade_2_to_3 = common_upgrade
+upgrade_3_to_4 = common_upgrade
