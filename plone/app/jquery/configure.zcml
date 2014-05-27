@@ -10,6 +10,11 @@
         />
 
     <resource
+        name="plone.app.jquery.nomin.js"
+        file="jquery-1.9.1.js"
+        />
+
+    <resource
         name="jquery-migrate.js"
         file="jquery-migrate-1.2.1.js"
         />

@@ -1,9 +1,15 @@
 <?xml version="1.0"?>
 <object name="portal_javascripts">
 
+    <javascript enabled="False" id="++resource++plone.app.jquery.js" />
+
+    <javascript cacheable="True" compression="safe" cookable="True"
+        enabled="True" inline="False" expression="" insert-before="*"
+        bundle="jquery" id="++resource++plone.app.jquery.nomin.js" />
+
     <javascript cacheable="True" compression="safe" cookable="True"
         enabled="True" inline="False" expression=""
-        insert-after="++resource++plone.app.jquery.js"
+        insert-after="++resource++plone.app.jquery.nomin.js"
         bundle="jquery" id="++resource++jquery-migrate.js" />
 
 </object>
