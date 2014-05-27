@@ -3,6 +3,9 @@ Introduction
 
 plone.app.jquery adds `jquery`_ library to Plone.
 
+Included is the jQuery migration plugin. You can install it by importing the
+``development`` profile.
+
 Versions
 ========
 

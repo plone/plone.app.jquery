@@ -4,21 +4,34 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     i18n_domain="plone">
 
-    <resource 
+    <resource
         name="plone.app.jquery.js"
         file="jquery-1.9.1.min.js"
         />
 
+    <resource
+        name="jquery-migrate.js"
+        file="jquery-migrate-1.2.1.js"
+        />
+
     <genericsetup:registerProfile
         name="default"
-        title="Plone JQuery Integration"
+        title="Plone jQuery Integration"
         directory="profiles/default"
-        description="Profile for Plone's JQuery resources."
+        description="Profile for Plone's jQuery resources."
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        for="Products.CMFCore.interfaces.ISiteRoot"
+        />
+
+    <genericsetup:registerProfile
+        name="development"
+        title="Plone jQuery Development Profile"
+        directory="profiles/development"
+        description="Installs the jQuery migrate plugin for easier transition to jQuery 1.9 and up."
         provides="Products.GenericSetup.interfaces.EXTENSION"
         for="Products.CMFCore.interfaces.ISiteRoot"
         />
 
     <include file="upgrades.zcml" />
-
 
 </configure>
