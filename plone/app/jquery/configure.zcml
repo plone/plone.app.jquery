@@ -19,6 +19,11 @@
         file="jquery-migrate-1.2.1.js"
         />
 
+    <resource
+        name="jquery.min.map"
+        file="jquery.min.map"
+        />
+
     <genericsetup:registerProfile
         name="default"
         title="Plone jQuery Integration"
