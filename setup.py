@@ -6,7 +6,10 @@ setup(
     name='plone.app.jquery',
     version=version,
     description="jQuery integration for Plone",
-    long_description=open("README.rst").read(),
+    long_description="%s%s" % (
+        open("README.rst").read() + "\n",
+        open("CHANGES.rst").read(),
+    ),
     classifiers=[
         "Environment :: Web Environment",
         "Framework :: Plone",
