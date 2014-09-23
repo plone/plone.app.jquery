@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.9.1.2 (unreleased)
+1.9.1.2 (2014-09-23)
 --------------------
 
 - Add jquery.min.map for jQuery 1.9.1 from
