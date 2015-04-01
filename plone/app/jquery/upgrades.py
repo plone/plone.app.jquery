@@ -29,3 +29,4 @@ step_1_initial_upgrade = ImportProfileStep(
 
 upgrade_2_to_3 = common_upgrade
 upgrade_3_to_4 = common_upgrade
+upgrade_4_to_5 = common_upgrade

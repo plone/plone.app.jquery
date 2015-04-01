@@ -31,4 +31,22 @@
         handler="plone.app.jquery.upgrades.upgrade_2_to_3"
       />
 
+    <genericsetup:upgradeStep
+        source="3"
+        destination="4"
+        title="Upgrade jQuery"
+        description=""
+        profile="plone.app.jquery:default"
+        handler="plone.app.jquery.upgrades.upgrade_3_to_4"
+      />
+
+    <genericsetup:upgradeStep
+        source="4"
+        destination="5"
+        title="Upgrade jQuery"
+        description=""
+        profile="plone.app.jquery:default"
+        handler="plone.app.jquery.upgrades.upgrade_4_to_5"
+      />
+
 </configure>

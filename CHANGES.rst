@@ -1,10 +1,11 @@
 Changelog
 =========
 
-1.9.1.3 (unreleased)
---------------------
+1.11.2 (unreleased)
+-------------------
 
-- Nothing changed yet.
+- Use jQuery 1.11.2
+  [MatthewWilkes]
 
 
 1.9.1.2 (2014-09-23)
