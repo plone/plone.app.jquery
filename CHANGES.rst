@@ -4,7 +4,9 @@ Changelog
 1.9.1.3 (unreleased)
 --------------------
 
-- Nothing changed yet.
+- Properly register upgrade step so jquerytools can be updated
+  in the plone control panel
+  [fRiSi]
 
 
 1.9.1.2 (2014-09-23)

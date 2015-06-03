@@ -1,6 +1,6 @@
 from Products.CMFCore.utils import getToolByName
 import logging
-logger = logging.getLogger("Belimo")
+logger = logging.getLogger("plone.app.jquery")
 
 
 class ImportProfileStep(object):
