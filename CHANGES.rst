@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.9.1.3 (unreleased)
+1.9.1.3 (2015-06-03)
 --------------------
 
 - Properly register upgrade step so jquerytools can be updated
