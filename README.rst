@@ -1,7 +1,8 @@
 Introduction
 ============
 
-plone.app.jquery adds `jquery`_ library to Plone.
+plone.app.jquery adds the `jquery`_ library to Plone.
+
 
 Included is the jQuery migration plugin. You can install it by importing the
 ``development`` profile.
@@ -11,15 +12,12 @@ Versions
 
 Version numbers of the package is the same as the jQuery library + packaging version.
 
-Available versions of this package are:
+For the latest available versions of this package, see our `PyPI page`_.
 
-- 1.11.2
-- 1.9.1
-- 1.8.3
-- 1.7.2
-- 1.4.4
+Note that this 1.11 version is not officially used by any Plone
+version.  Use at your own risk/discretion.  Plone 4.3 uses 1.7.x.
 
-jQuery 1.7 is not supported on Plone < 4.3. So if you have dependencies on plone.app.jquery
-you should pin it in your buildout configuration to 1.4.4.
+Note that on Plone 5, this package is no longer used.
 
 .. _`jquery`: http://jquery.com
+.. _`PyPI page`: https://pypi.python.org/pypi/plone.app.jquery
