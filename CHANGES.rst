@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.7.2.1 (unreleased)
+1.7.2.1 (2015-08-13)
 --------------------
 
 - Fixed initial upgrade: use correct profile directory.
